@@ -15,12 +15,10 @@ async function openModal(type) {
 
   if (type == "films") {
     for (let i = 0; i < response.length; i++) {
-      console.log(response[i].name);
       paragraph.innerHTML += response[i].title + "<br>";
     }
   } else {
     for (let i = 0; i < response.length; i++) {
-      console.log(response[i].name);
       paragraph.innerHTML += response[i].name + "<br>";
     }
   }
